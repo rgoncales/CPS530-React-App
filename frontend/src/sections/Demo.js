@@ -4,6 +4,7 @@ import SectionHeader from "../components/sectionHeader";
 import ArticleContainer from "../components/articleContainer";
 import IMG_1 from "../img/img1.png";
 import IMG_2 from "../img/img2.png";
+import CommentList from "../components/CommentsList";
 
 const SummaryPage = () => {
   const renderDesc1 = (
@@ -37,6 +38,11 @@ const SummaryPage = () => {
     </ArticleContainer>
   );
 
+
+  const renderComments = (
+	<CommentList/>
+  );
+
   return (
     <div id="demo-section">
       <TopBar />
@@ -47,6 +53,7 @@ const SummaryPage = () => {
         />
         {renderDesc1}
         {renderDesc2}
+	{renderComments}
       </div>
     </div>
   );
