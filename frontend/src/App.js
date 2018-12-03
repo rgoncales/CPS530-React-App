@@ -12,6 +12,7 @@ class App extends React.Component {
     return (
       <BrowserRouter>
         <Switch>
+          <Route exact path="/" component={SummaryPage} />
           <Route exact path="/summary" component={SummaryPage} />
           <Route
             exact
