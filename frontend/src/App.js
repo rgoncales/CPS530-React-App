@@ -4,7 +4,9 @@ import { Route, Switch, withRouter, BrowserRouter } from "react-router-dom";
 import {
   SummaryPage,
   InstallTutorialPage,
-  WebsiteTutorialPage
+  WebsiteTutorialPage,
+  ConclusionPage,
+  CreditsPage
 } from "./sections";
 
 class App extends React.Component {
@@ -24,6 +26,8 @@ class App extends React.Component {
             path="/tutorial_website"
             component={WebsiteTutorialPage}
           />
+          <Route exact path="/conclusion" component={ConclusionPage} />
+          <Route exact path="/credits" component={CreditsPage} />
         </Switch>
       </BrowserRouter>
     );

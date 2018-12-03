@@ -55,7 +55,7 @@ const SummaryPage = () => {
   return (
     <div id="summary-section">
       <TopBar />
-      <div id="main-content" className="summary-container">
+      <div id="main-content">
         <SectionHeader
           title="ReactJS"
           subtitle="A JavaScript library for building user interfaces."
