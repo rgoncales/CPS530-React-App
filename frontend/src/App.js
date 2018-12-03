@@ -6,7 +6,8 @@ import {
   InstallTutorialPage,
   WebsiteTutorialPage,
   ConclusionPage,
-  CreditsPage
+  CreditsPage,
+  DemoPage
 } from "./sections";
 
 class App extends React.Component {
@@ -28,6 +29,7 @@ class App extends React.Component {
           />
           <Route exact path="/conclusion" component={ConclusionPage} />
           <Route exact path="/credits" component={CreditsPage} />
+          <Route exact path="/demo" component={DemoPage} />
         </Switch>
       </BrowserRouter>
     );

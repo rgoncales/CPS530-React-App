@@ -34,3 +34,12 @@ h4 {
 img.instruction-image {
   width: 50%;
 }
+
+p.pic-in-text {
+  width: 80%;
+  display: inline-flex;
+}
+img.in-text {
+  display: inline-flex;
+  width: 20%;
+}

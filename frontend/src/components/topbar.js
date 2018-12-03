@@ -7,6 +7,7 @@ const TopBar = ({ children, className, backLink }) => (
     <Link to="/summary">Summary</Link>
     <Link to="/tutorial_install">Install Tutorial</Link>
     <Link to="/tutorial_website">Website Tutorial</Link>
+    <Link to="/demo">Demo</Link>
     <Link to="/conclusion">Conclusion</Link>
     <Link to="/credits">Credits</Link>
   </header>
